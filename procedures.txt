@@ -1,0 +1,99 @@
+GET_THE_PR_DERIV_SANG_GSP : API Médicaments virtuels Statut Produit dérivé du sang.
+GET_THE_SMR_ASMR_GSP : API SMR et ASMR Médicament Virtuel (MAJ 20/11/2014)
+GET_THE_PRODUIT_STUP_GSP : API Produit Stupéfiant Médicament Virtuel (MAJ 20/11/2014)
+GET_THE_PRODUIT_DOP_GSP : API Produit Dopant Médicament Virtuel (MAJ 15/09/2014)
+GET_THE_PRESCR_REST_GSP : API Statut prescription restreinte Médicament Virtuel (MAJ 21/12/2014)
+GET_THE_DELIVR_REST_GSP : API Statut délivrance restreinte Médicament Virtuel (MAJ 21/12/2014)
+GET_THE_GSP_DSP : API Statut T2A Produit onéreux / Rétrocession Médicament Virtuel (MAJ 15/09/2014)
+GET_THE_ATU_GSP : API Statut ATU Médicament Virtuel (MAJ 15/09/2014)
+GET_THE_VIGI_CONDUCT_GSP : API Vigilance Conducteur Médicament Virtuel (MAJ 15/09/2014)
+GET_THE_ATC_DDD_GSP_V2 : API Classe ATC et DDD Médicament Virtuel (MAJ 20/11/2014)
+GET_THE_SOLUTE_GSP : API Solutés Médicament Virtuel (MAJ 15/09/2014)
+GET_THE_VIRTUEL : API Médicament Virtuel (MAJ 15/09/2014)
+GET_THE_FORME_GSP : API Forme pharmaceutique Médicament Virtuel (MAJ 21/12/2014)
+GET_THE_COMPO_GSP : Composition détaillée Médicament Virtuel (MAJ 24/12/2014)
+GET_THE_COMPO_SYNTH_GSP : API Composition synthétique Médicament Virtuel (MAJ 24/12/2014)
+GET_THE_EFFET_NOTOIRE_GSP : API Excipients à Effet Notoire (EEN) Médicament Virtuel (MAJ 15/09/2014)
+GET_THE_FIC_INFO_THERA_GSP : API Fiche d’Information Thérapeutique (FIT) Médicament Virtuel (MAJ 23/09/2014)
+GET_THE_TER_CIPEMG_AGE_GSP : API Contre Indication ou Précaution d’Emploi avec l’âge Médicament Virtuel (MAJ 20/11/2014)
+GET_THE_TER_CIPEMG_PDS_GSP : API Contre Indication ou Précaution d’Emploi avec poids Médicament Virtuel (MAJ 20/11/2014)
+GET_THE_TER_CIPEMG_CLR_GSP : API CI ou PE avec Insuffisance Rénale Médicament Virtuel (MAJ 20/11/2014)
+GET_THE_TER_CIPEMG_SURF_GSP : API CI ou PE avec Surface Corporelle Médicament Virtuel (MAJ 20/11/2014)
+GET_THE_TER_CIPEMG_GR_GSP : API CI ou PE avec la Grossesse Médicament Virtuel (MAJ 20/11/2014)
+GET_THE_TER_CIPEMG_AL_GSP : API CI ou PE avec Allaitement Médicament Virtuel (MAJ 20/11/2014)
+GET_THE_GSP_TO_HYPER : API Description hypersensibilités toutes substances Médicament Virtuel (MAJ 20/11/2014)
+GET_THE_GSP_TO_HYPER_SAC : API Description Hypersensibilités substances actives Médicament virtuel (MAJ 20/11/2014)
+GET_THE_HYPER_TO_GSP : API Hypersensibilité analyse Médicament virtuel (MAJ 20/11/2014)
+GET_THE_INDIC_GSP : API Indications Médicament Virtuel (MAJ 20/11/2014)
+GET_THE_CIPE_GSP_CIM10 : API Contre Indication / Précaution d’emploi  Médicament virtuel (MAJ 20/11/2014)
+GET_THE_INDIC_AMM_PTT_TRU_GSP : API Indication AMM ou hors AMM Médicament virtuel (MAJ 20/11/2014)
+GET_THE_INTER_GSP_SAC : API Interaction Médicament Virtuel (MAJ 20/11/2014)
+GET_THE_INCOMPAT_GSP_SAC : API Incompatibilité Spécialité Médicament Virtuel (MAJ 20/11/2014)
+GET_THE_PSO_MM_BY_SPE : API Posologies Min Max (MAJ 15/09/2014)
+GET_THE_GSP_INDIC_BY_CIM10 : API Médicaments virtuels indiqués pour une pathologie (CIM10) (MAJ 08/12/2014)
+GET_THE_ANTIBIO_GSP : API Médicaments virtuels indiquant si le GSP donné couvre ou non des SPE qui sont des antibiotiques (MAJ 21/12/2014).
+GET_THE_HYPNO_GSP : API Médicaments virtuels indiquant si le GSP donné couvre ou non des SPE qui sont des hypnotiques (MAJ 21/12/2014).
+GET_THE_ANXIO_GSP : API Médicaments virtuels indiquant si le GSP donné couvre ou non des SPE qui sont des anxiolytiques (MAJ 21/12/2014).
+GET_THE_ANTICANC_GSP : API Médicaments virtuels indiquant si le GSP donné couvre ou non des SPE qui sont des anticancéreux (MAJ 21/12/2014).
+GET_THE_PR_DERIV_SANG_GSP : API Médicament virtuel Statut Produit dérivé du sang (MAJ 31/01/2015).
+GET_THE_CFO_SECABLE_SPE: API indiquant le statut sécabilité des formes orales solides.
+GET_THE_ADMIN_FO_SOLIDE_SPE: API indiquant les conditions d’administration pour les fromes orales.
+GET_THE_LI_PRESC_SPE : API indiquant  la liste de prescription.
+GET_THE_COND_ADMIN_SPE : API indiquant les conditions d’administration.
+GET_THE_LABO_EXPLOIT_SPE : API indiquant le laboratoire exploitant.
+GET_THE_PR_DERIV_SANG_SPE : API indiquant le statut de produit dérivé du sang.
+GET_THE_MEDIC_ORPH_SPE : API indiquant le statut de Médicament Orphelin.
+GET_THE_PGR_SURV_RENF_SPE : API indiquant le statut vis-à-vis des PGR et surveillance renforcée.
+GET_THE_COMM_CIPEMG_SPE : API indiquant  les commentaires associés aux Précautions d’Emploi.
+GET_THE_REDOND_SPE : API indiquant pour au moins deux SPE données si elles sont redondantes ou non.
+GET_THE_SMR_ASMR_SPE : API SMR et ASMR Spécialité (MAJ 15/09/2014)
+GET_THE_PRODUIT_STUP : API Produit Stupéfiant Spécialité (MAJ 15/09/2014)
+GET_THE_PRODUIT_DOP : API Produit Dopant Spécialité (MAJ 15/09/2014)
+GET_THE_PRESCR_REST : API Statut prescription restreinte Spécialité (MAJ 21/12/2014)
+GET_THE_DELIVR_REST : API Statut délivrance restreinte Spécialité (MAJ 21/12/2014)
+GET_THE_GEN_REF: API Statut Générique ou Référent (MAJ 15/09/2014)
+GET_THE_SPE_DSP : API Statut T2A Produit onéreux / Rétrocession Spécialité (MAJ 15/09/2014)
+GET_THE_PRIX : API Prix et prix à l’UCD (MAJ 24/11/2014)
+GET_THE_ATU : API Statut ATU Spécialité (MAJ 15/09/2014)
+GET_THE_VIGI_CONDUCT : API Vigilance Conducteur Spécialité (MAJ 15/09/2014)
+GET_THE_ATC_DDD_V2: API Classe ATC et DDD Spécialité (MAJ 15/09/2014)
+GET_THE_SOLUTE : API Solutés Spécialité (MAJ 15/09/2014)
+GET_THE_VIRTUEL : API Médicament Virtuel (MAJ 15/09/2014)
+GET_THE_FORME_SPE_V2 : API Forme pharmaceutique Spécialité (MAJ 21/12/2014)
+GET_THE_COMPO_SPE : API Composition détaillée Spécialité (MAJ 24/12/2014)
+GET_THE_COMPO_SYNTH_SPE : API Composition synthétique Spécialité (MAJ 24/12/2014)
+GET_THE_EFFET_NOTOIRE_SPE: API Excipients à Effet Notoire (EEN) Spécialité (MAJ 15/09/2014)
+GET_THE_FIC_INFO_THERA : API Fiche d’Information Thérapeutique (FIT) Spécialité (MAJ 15/09/2014)
+GET_THE_TER_CIPEMG_AGE : API Contre Indication ou Précaution d’Emploi avec l’âge Spécialité  (MAJ 23/09/2014)
+GET_THE_TER_CIPEMG_PDS : API Contre Indication ou Précaution d’Emploi avec poids Spécialité (MAJ 15/09/2014)
+GET_THE_TER_CIPEMG_CLR : API CI ou PE avec Insuffisance Rénale Spécialité (MAJ 15/09/2014)
+GET_THE_TER_CIPEMG_SURF : API CI ou PE avec Surface Corporelle Spécialité (MAJ 15/09/2014)
+GET_THE_TER_CIPEMG_GR : API CI ou PE avec la Grossesse Spécialité (MAJ 23/09/2014)
+GET_THE_TER_CIPEMG_AL : API CI ou PE avec Allaitement Spécialité (MAJ 15/09/2014)
+GET_THE_SPE_TO_HYPER : API Description hypersensibilités Spécialité (MAJ 20/11/2014)
+GET_THE_HYPER_TO_SPE : API Hypersensibilité analyse Spécialité (MAJ 20/11/2014)
+GET_THE_INDIC_SPE: API Indications Spécialité (MAJ 20/11/2014)
+GET_THE_CIPE_SPE_CIM10 : API Contre Indication / Précaution d’emploi Spécialité (MAJ 20/11/2014)
+GET_THE_INDIC_AMM_PTT_TRU : API Indication AMM ou hors AMM Spécialité (MAJ 20/11/2014)
+GET_THE_INTER_SPE_SAC : API Interaction Spécialité (MAJ 23/09/2014)
+GET_THE_INCOMPAT_SPE_SAC : API Incompatibilité Spécialité (MAJ 15/09/2014)
+GET_THE_PSO_MM_BY_SPE : API Posologies Min et Max (MAJ 15/09/2014)
+GET_THE_SPE_INDIC_BY_CIM10 : API Spécialités indiquées pour une pathologie (base CIM10) (MAJ 08/12/2014)
+GET_THE_ANTIBIO_SPE : API Spécialités statut antibiotique (MAJ 21/12/2014).
+GET_THE_HYPNO_SPE : API Spécialités statut hypnotique (MAJ 21/12/2014).
+GET_THE_ANXIO_SPE : API Spécialités statut anxiolytique (MAJ 21/12/2014).
+GET_THE_ANTICANC_SPE : API Spécialités statut  anticancéreux (MAJ 21/12/2014).
+GET_THE_RESERVE_HOSP_SPE : API Spécialités statut Réserve Hospitalière (MAJ 21/12/2014).
+GET_THE_INDEX_VACC : API indexation des vaccins selon critères HAS (MAJ 24/12/2014)
+GET_THE_UNIT_PRISE : API Unités de prescription et de délivrance à l’UCD (MAJ 24/12/2014)
+GET_THE_MEDIC_EXCEPT_SPE : API Spécialité statut Médicament d’exception (MAJ 24/12/2014)
+GET_THE_CFO_SECABLE_SPE: API Sécabilité des formes orales solides (MAJ 31/01/2015)
+GET_THE_ADMIN_FO_SOLIDE_SPE: API Conditions d’administration spécifiques pour les fromes orales (MAJ 31/01/2015)
+GET_THE_LI_PRESC_SPE : API Spécialité statut Liste de prescription (MAJ 31/01/2015)
+GET_THE_COND_ADMIN_SPE : API Conditions générales d’administration (MAJ 31/01/2015)
+GET_THE_LABO_EXPLOIT_SPE : API Laboratoire exploitant (MAJ 31/01/2015)
+GET_THE_PR_DERIV_SANG_SPE : API statut Produit dérivé du sang (MAJ 31/01/2015)
+GET_THE_MEDIC_ORPH_SPE : API Statut Médicament Orphelin (MAJ 31/01/2015)
+GET_THE_PGR_SURV_RENF_SPE : API statut PGR / Surveillance renforcée (MAJ 31/01/2015)
+GET_THE_COMM_CIPEMG_SPE : API commentaires associés aux Précautions d’Emploi (MAJ 31/01/2015)
+GET_THE_REDOND_SPE : API Redondances (MAJ 31/01/2015)
