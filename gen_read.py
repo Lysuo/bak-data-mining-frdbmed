@@ -249,6 +249,7 @@ def sortGen(listIn):
     lsplit = l[0:-2].split(" ")
     strB = ""
     strF = ""
+    strFE = True
     strD = ""
     strL = ""
     strPoubelle = ""
@@ -260,6 +261,7 @@ def sortGen(listIn):
         elif (not re.match("\d", lsplit[i], 0) is None) and strD != "" and strF != "" :
     #      strF += lsplit[i]+" "
            strF += ""
+           strFE = False
         elif not (re.match("\d", lsplit[i], 0) is None):
           strD += lsplit[i]+" "
           countD = 1
@@ -270,9 +272,11 @@ def sortGen(listIn):
         elif lsplit[i] in listToCheck:
     #      strF += lsplit[i]+" "
           strF += ""
+          strFE = False
           if lsplit[i] == "NSFP":
             countNSFP += 1
-        elif lsplit[i] in ["ET", "EN", "OU", "A"] and strF != "":
+    #    elif lsplit[i] in ["ET", "EN", "OU", "A"] and strF != "":
+        elif lsplit[i] in ["ET", "EN", "OU", "A"] and not strFE:
     #      strF += lsplit[i]+" "
            strF += ""
         elif lsplit[i] in listLabos:
